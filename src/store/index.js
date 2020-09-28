@@ -25,7 +25,7 @@ export default new Vuex.Store({
     async getNews({commit}, q){
       if(!q){ 
         var url = 'http://newsapi.org/v2/top-headlines?' +
-        'country=ar&' +
+        'country=us&' +
         'apiKey=81651ccd4f4e41be9fe011fa63daf543';
        }else{
         var url = 'http://newsapi.org/v2/everything?' +

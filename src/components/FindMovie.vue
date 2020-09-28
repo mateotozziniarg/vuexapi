@@ -2,7 +2,7 @@
   <div class="hello">
       <b-loading :is-full-page="true" v-model="loader"></b-loading>
     <div v-if="$store.state.noticias">
-       <b-input placeholder="Search..."
+       <b-input placeholder="Filter..."
                 type="search"
                 icon-pack="fas"
                 icon="search"
