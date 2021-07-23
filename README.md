@@ -6,10 +6,7 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
-```php
-$tuvieja = 10;
-
-cartesian(variantes);
+```
 npm run serve
 
 ```
