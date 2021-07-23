@@ -6,7 +6,7 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
-```javascript
+```python
 function cartesian(args) {
     var r = [], max = args.length-1;
     function helper(arr, i) {
